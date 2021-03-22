@@ -1,0 +1,13 @@
+name: essai
+channels:
+  - conda-forge
+    - google-auth
+    - google-cloud-sdk
+    - google-cloud-bigquery
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:    
+    - pandas
+    - matplotlib
