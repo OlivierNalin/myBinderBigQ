@@ -8,7 +8,6 @@ dependencies:
   - python
   - numpy
   - ipywidgets
-  - datetime  
   - pip
   - pip:    
     - pandas
