@@ -1,10 +1,10 @@
 name: essai
 channels:
-  - conda-forge
-    - google-auth
-    - google-cloud-sdk
-    - google-cloud-bigquery
+   - conda-forge
 dependencies:
+  - google-auth
+  - google-cloud-sdk
+  - google-cloud-bigquery
   - python
   - numpy
   - pip
