@@ -7,6 +7,9 @@ dependencies:
   - google-cloud-bigquery
   - python
   - numpy
+  - ipywidgets
+  - datetime
+  
   - pip
   - pip:    
     - pandas
