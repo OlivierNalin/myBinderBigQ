@@ -3,9 +3,9 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OlivierNalin/myBinderBigQ/HEAD)
 
 La DIRIF examine plusieurs solutions pour faire des requêtes dans la base de données des trafics et vitesses qui sont enregistrés par les stations de comptage.
-L'une des solution serait de charger les données dans un CLoud (Google BigQuery par exemple) et de faire des traitements standardisés par l'intermédiaires de "Jupyter notebooks".
+L'une des solutions serait de charger les données dans un CLoud (Google BigQuery par exemple) et de faire des traitements standardisés par l'intermédiaires de "Jupyter notebooks".
 
-L'exigence est que la solution permette à des techniciens de faire les opérations usuelles, sans maitriser la programmation des notebooks.
+L'exigence est que la solution permette à des techniciens de faire les opérations usuelles, telles que l'extraction de données, sans maitriser la programmation des notebooks.
 
 Pour vérifier la faisabilité de la méthode, j'ai chargé, dans une base BigQuery, les débits de toute l'année 2019 de 150 stations SIRIUS. J'ai créé un premier notebook qui permet à un utilisateur de sélectionner un axe (A13-W par exemple) dans une liste déroulante, puis de selectionner l'une des stations de cet axe ('A13-W/03+0400/P' par exemple), par une seconde liste déroulante. Après cela, l'utilisateur choisit les dates de début et de fin de l'extraction.
 
